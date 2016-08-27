@@ -1,4 +1,4 @@
-# MNA-MAT
+# _MNA-MAT_
 A SPICE netlist simulation tool for MATLAB
 
 ## About MNA-MAT
