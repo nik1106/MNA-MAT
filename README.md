@@ -7,6 +7,10 @@ MNA-MAT is a simulation tool designed in MATLAB for solving circuits described a
 - Capacitors (C)
 - Independent voltage sources (V)
 - Independent current sources (I)
-- Voltage controlled voltage sources [VCVS] (E)
-- Voltage controlled current sources [VCCS] (I)
+- Voltage controlled voltage sources (VCVS) (E)
+- Voltage controlled current sources (VCCS) (I)
 
+MNA-MAT supports the following simulation types as of present :-
+* DC bias point (for purely resistive circuits)
+* Transient analysis (for capacitive or RC circuits)
+* Monte Carlo analysis (done using one of the above, again based on the type of circuit)
