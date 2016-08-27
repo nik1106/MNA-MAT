@@ -15,4 +15,13 @@ MNA-MAT supports the following simulation types as of present :-
 * Transient analysis (for capacitive or RC circuits)
 * Monte Carlo analysis (done using one of the above, again based on the type of circuit)
 
+__Note :-__ This tool works only with versions of MATLAB from 2014b onwards.
+
 ## Features
+1. Easy to use and then analyse results.
+2. Accurate (a bunch of circuits were simulated on this tool and then on TopSpice, the results were always identical).
+3. Saves the results of the previous run simulation.
+4. The written code is flexible - it allows room to make changes and add more features if necessary.
+
+## Directions for use
+
