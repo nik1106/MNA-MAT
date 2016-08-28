@@ -1,6 +1,13 @@
 # _MNA-MAT_
 A SPICE netlist simulation tool for MATLAB
 
+## MNA-MAT in action
+The netlist file being simulated is __example8.cir__ (included in this repository) using Standard analysis. As it is an RC circuit, the simulation type used is __Transient analysis__.
+
+![alt tag](https://github.com/nik1106/MNA-MAT/blob/master/Schematics/example8.png)
+
+![increment](http://imgur.com/OHJG8eu.gif)
+
 ## About MNA-MAT
 MNA-MAT is a simulation tool designed in MATLAB for solving circuits described as SPICE netlists. It uses the algorithm of Modified Nodal Analysis (MNA). It accepts a file (.cir or .txt) with the SPICE netlist description of the circuit to be simulated. As of now, MNA-MAT supports the following circuit elements :-
 - Resistors (R)
