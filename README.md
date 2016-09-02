@@ -1,3 +1,4 @@
+![Logo](http://i.imgur.com/ykW0juV.png?1)
 # _MNA-MAT_
 A SPICE netlist simulation tool for MATLAB
 
