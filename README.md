@@ -43,3 +43,8 @@ __Note :-__ It is also possible to run the 2 files - Standard_Analysis.m or Mont
 ## What's included
 1. The three MATLAB tool files.
 2. A set of 10 examples (.cir SPICE netlists) along with schematics of the same.
+
+## Just a Request
+If you find this tool useful, or atleast think it to be ambitious, please consider leaving a star or suggesting changes.
+
+__Thank You__
