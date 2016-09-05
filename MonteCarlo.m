@@ -62,7 +62,7 @@ for i_i=1:runs
                 Element(num_Elements).Node2=str2num(N2{i});
                 Element(num_Elements).Value=str2double(value{i});
                 num_R=num_R+1;
-                if((i_i==1)&&(num_R==1)) %If first run, and first resistor parsed - obtain distribution type and associated properties from user
+                if((i_i==1)&&(num_R==1)) %If first run, and first resistor parsed - obtain distribution type and associated property from user
                     dist_R=input('Enter the distribution to be used for resistors :-\n 1. Gaussian (Normal)\n 2. Uniform (Rectangular)\nEnter any other number to keep resistor values fixed at each run\n');
                     if dist_R==1 %Normal distribution
                         SD_R=input('Enter the standard deviation (in %) for resistor Gaussian distribution : ');
@@ -97,7 +97,7 @@ for i_i=1:runs
                 Element(num_Elements).Node2=str2num(N2{i});
                 Element(num_Elements).Value=str2double(value{i});
                 num_C=num_C+1;
-                if((i_i==1)&&(num_C==1)) %If first run, and first capacitor parsed - obtain distribution type and associated properties from user
+                if((i_i==1)&&(num_C==1)) %If first run, and first capacitor parsed - obtain distribution type and associated property from user
                     dist_C=input('Enter the distribution to be used for capacitors :-\n 1. Gaussian (Normal)\n 2. Uniform (Rectangular)\nEnter any other number to keep capacitor values fixed at each run\n');
                     if dist_C==1 %Normal distribution
                         SD_C=input('Enter the standard deviation (in %) for capacitor Gaussian distribution : ');
@@ -132,7 +132,7 @@ for i_i=1:runs
                 Element(num_Elements).Node2=str2num(N2{i});
                 Element(num_Elements).Value=str2double(value{i});
                 num_L=num_L+1;
-                if((i_i==1)&&(num_L==1)) %If first run, and first inductor parsed - obtain distribution type and associated properties from user
+                if((i_i==1)&&(num_L==1)) %If first run, and first inductor parsed - obtain distribution type and associated property from user
                     dist_L=input('Enter the distribution to be used for inductors :-\n 1. Gaussian (Normal)\n 2. Uniform (Rectangular)\nEnter any other number to keep inductor values fixed at each run\n');
                     if dist_L==1 %Normal distribution
                         SD_L=input('Enter the standard deviation (in %) for inductor Gaussian distribution : ');
