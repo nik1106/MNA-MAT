@@ -5,8 +5,8 @@ A SPICE netlist simulation tool for MATLAB
 ## MNA-MAT in action
 The netlist file being simulated is __example8.cir__ (included in this repository) using Standard analysis. As it is an RC circuit, the simulation type used is __Transient analysis__.
 
-![alt text](https://github.com/nik1106/MNA-MAT/blob/master/Schematics/example8.png "Schematic")     ![alt text](http://i.imgur.com/2oqzSAk.png "SPICE netlist")
-
+![alt text](https://github.com/nik1106/MNA-MAT/blob/master/Schematics/example8.png)     ![alt text](http://i.imgur.com/2oqzSAk.png)
+### Standard Analysis
 ![increment](http://imgur.com/OHJG8eu.gif)
 
 ## About MNA-MAT
