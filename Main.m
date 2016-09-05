@@ -1,7 +1,7 @@
 clc;
 clear;
 close all;
-flag = input('<< Welcome to MNA-MAT - A SPICE netlist simulation tool >> \n 1. Standard Analysis \n 2. MonteCarlo \n 3. View the result of previous simulation \n');
+flag = input('<< Welcome to MNA-MAT - A SPICE netlist simulation tool >> \n 1. Standard Analysis \n 2. Monte Carlo Analysis \n 3. View the result of previous simulation \n');
 switch(flag)
     case{1}
         run('Standard_Analysis.m');
