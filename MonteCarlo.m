@@ -308,7 +308,7 @@ for i_i=1:runs
     %----------------------------------------------------------------------------
     solver_flag=0; %A flag used for deciding which solver to finally use
     %solver_flag=0 => Purely resistive circuit, use solve for the equations
-    %solver_flag=1 => RC, RL or RLC circuit, use ode15i for the equations
+    %solver_flag=1 => Pure C, pure L, LC, RC, RL or RLC circuit, use ode15i for the equations
     %----------------------------------------------------------------------------
     %%Add each elemental current using KCL to corresponding node equation
     for i=1:num_Elements
@@ -447,7 +447,7 @@ for i_i=1:runs
         for i=1:length(VCVS_equation)
             VCVS_equation{i}=[VCVS_equation{i} '=' '0'];
         end
-        %%Else if solver_flag=1 (RC,RL or RLC circuit),do not add the RHS ('=0')
+        %%Else if solver_flag=1 (Pure C, pure L, LC, RC, RL or RLC circuit),do not add the RHS ('=0')
         %%to each nodal KCL equation and to each VCVS equation, replace the terms
         %%v_1,v_2,... in LHS of the equations with v(1),v(2),... respectively,
         %%also replace the independent voltage source current terms with v(num_Nodes+j) (j=1:num_V)
