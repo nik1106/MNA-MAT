@@ -204,7 +204,7 @@ end
 %----------------------------------------------------------------------------
 solver_flag=0; %A flag used for deciding which solver to finally use
 %solver_flag=0 => Purely resistive circuit, use solve for the equations
-%solver_flag=1 => RC, RL or RLC circuit, use ode15i for the equations
+%solver_flag=1 => Pure C, pure L, LC, RC, RL or RLC circuit, use ode15i for the equations
 %----------------------------------------------------------------------------
 %%Add each elemental current using KCL to corresponding node equation
 for i=1:num_Elements
