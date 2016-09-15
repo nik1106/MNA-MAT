@@ -26,7 +26,7 @@ MNA-MAT supports the following simulation types as of present :-
 * Transient analysis (for capacitive or RC circuits)
 * Monte Carlo analysis (done using one of the above, again based on the type of circuit)
 
-__Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The code includes input for inductors, but as of now, we are not generating the equations for inductors. So the program won't fail if the netlist includes inductors - it will simply ask for input if required, but the results will be incorrect.
+__Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The code includes input for inductors, but as of now, we are not generating the equations for inductors. So the program won't fail if the netlist includes inductors - it will simply ask for additional input if required, but the results will be incorrect.
 
 ## Features
 1. Easy to use and then analyse results.
