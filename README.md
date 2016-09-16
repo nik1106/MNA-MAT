@@ -16,17 +16,20 @@ The netlist file being simulated is __example8.cir__ (included in this repositor
 MNA-MAT is a simulation tool designed in MATLAB for solving circuits described as SPICE netlists. It uses the algorithm of Modified Nodal Analysis (MNA). It accepts a file (.cir or .txt) with the SPICE netlist description of the circuit to be simulated. As of now, MNA-MAT supports the following circuit elements :-
 - Resistors (R)
 - Capacitors (C)
+- Inductors (L)
 - Independent voltage sources (V)
 - Independent current sources (I)
 - Voltage controlled voltage sources (VCVS) (E)
 - Voltage controlled current sources (VCCS) (I)
+- Current controlled voltage sources (CCVS) (H)
+- Current controlled current sources (CCCS) (F)
 
 MNA-MAT supports the following simulation types as of present :-
 * DC bias point (for purely resistive circuits)
-* Transient analysis (for capacitive or RC circuits)
+* Transient analysis (for pure C, pure L, RC, RL, LC or RLC circuits)
 * Monte Carlo analysis (done using one of the above, again based on the type of circuit)
 
-__Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The code includes input for inductors, but as of now, we are not generating the equations for inductors. So the program won't fail if the netlist includes inductors - it will simply ask for additional input if required, but the results will be incorrect.
+__Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The voltage source currents are taken in conventional current direction i.e. inside the source, __negative__ to __positive__ terminal.
 
 ## Features
 1. Easy to use and then analyse results.
