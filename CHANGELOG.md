@@ -21,3 +21,11 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Removed unnecessary loops to improve speed.
+
+###September 18th, 2016
+
+### Added
+- Axes labels for transient plots
+
+### Changed
+- General code cleanup - removed unnecessary square brackets
