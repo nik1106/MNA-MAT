@@ -47,7 +47,7 @@ __Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The
 
 ## What's included
 1. The three MATLAB tool files.
-2. A set of 10 examples (.cir SPICE netlists) along with schematics of the same.
+2. A set of 11 examples (.cir SPICE netlists) along with schematics (.png images) of the same.
 
 ## Just a Request
 If you find this tool useful, or atleast think it to be ambitious, please consider leaving a star or suggesting changes.
