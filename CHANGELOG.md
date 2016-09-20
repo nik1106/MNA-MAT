@@ -33,7 +33,7 @@ All notable changes to this project will be documented in this file.
 ###September 20th, 2016
 
 ### Added
-- New example SPICE netlist, a complex RLC circuit.
+- New example SPICE netlist (example11.cir), a complex RLC circuit.
 
 ### Changed
 - Minor changes.
