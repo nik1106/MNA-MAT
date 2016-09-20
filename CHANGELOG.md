@@ -25,7 +25,15 @@ All notable changes to this project will be documented in this file.
 ###September 18th, 2016
 
 ### Added
-- Axes labels for transient plots
+- Axes labels for transient plots.
 
 ### Changed
-- General code cleanup - removed unnecessary square brackets
+- General code cleanup - removed unnecessary square brackets.
+
+###September 20th, 2016
+
+### Added
+- New example SPICE netlist, a complex RLC circuit.
+
+### Changed
+- Minor changes.
