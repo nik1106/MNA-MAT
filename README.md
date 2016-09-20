@@ -45,8 +45,6 @@ __Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The
 3. Run the file Main.m.
 4. Simply follow the on-screen instructions.
 
-__Note :-__ It is also possible to run the 2 files - Standard_Analysis.m or MonteCarlo.m, independently. However, just make sure you don't have any figure windows open if you'd like to do this.
-
 ## What's included
 1. The three MATLAB tool files.
 2. A set of 10 examples (.cir SPICE netlists) along with schematics of the same.
