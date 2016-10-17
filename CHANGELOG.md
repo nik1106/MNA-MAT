@@ -45,3 +45,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed 
 - Minor changes.
+
+###October 18th, 2016
+
+### Changed
+- Minor aesthetic changes in the code and the generated output text files.
