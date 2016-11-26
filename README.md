@@ -29,7 +29,7 @@ MNA-MAT supports the following simulation types as of present :-
 * Transient analysis (for pure C, pure L, RC, RL, LC or RLC circuits)
 * Monte Carlo analysis (done using one of the above, again based on the type of circuit)
 
-__Note :-__ This tool works only with versions of MATLAB from 2014b onwards. The voltage source currents are taken in conventional current direction i.e. inside the source, __negative__ to __positive__ terminal.
+__Note :-__ This tool works only on versions of MATLAB from R2014b onwards. The voltage source currents are taken in conventional current direction i.e. inside the source, __negative__ to __positive__ terminal.
 
 ## Features
 1. Easy to use and then analyse results.
