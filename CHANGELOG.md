@@ -50,3 +50,9 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Minor aesthetic changes in the code and the generated output text files.
+
+###November 26th, 2016
+
+### Changed
+- Minor aesthetic improvements.
+- Minor changes for avoiding the 'symbolic:sym:sym:DeprecateExpressions' warning concerning sym function in MATLAB R2016a (MuPAD symbolic engine is now called using evalin function instead), and for support on future MATLAB releases.
