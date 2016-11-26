@@ -52,6 +52,8 @@ All notable changes to this project will be documented in this file.
 - Minor aesthetic changes in the code and the generated output text files.
 
 ###November 26th, 2016
+### Added
+- MIT License.
 
 ### Changed
 - Minor aesthetic improvements.
