@@ -58,3 +58,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Minor aesthetic improvements.
 - Minor changes for avoiding the 'symbolic:sym:sym:DeprecateExpressions' warning concerning sym command in MATLAB R2016a (MuPAD symbolic engine is now called using evalin command instead), and for support on future MATLAB releases.
+
+###February 12th, 2017
+### Changed
+- Removed all ^M characters in Main.m, Standard_Analysis.m and MonteCarlo.m using dos2unix.
