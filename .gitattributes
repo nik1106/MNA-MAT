@@ -1,3 +1,2 @@
-# Explicitly declare text files you want to always be normalized and converted
-# to native line endings on checkout.
-*.m text
+# Auto detect text files and perform LF normalization 
+* text=auto
