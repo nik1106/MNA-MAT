@@ -50,6 +50,6 @@ __Note :-__ This tool works only on versions of MATLAB from R2014b onwards. The 
 2. A set of 12 examples (.cir SPICE netlists) along with schematics (.png images) of the same.
 
 ## Just a Request
-If you find this tool useful, or atleast think it to be ambitious, please consider leaving a star or suggesting changes.
+If you find this tool useful, or at least think it to be ambitious, please consider leaving a star or suggesting changes.
 
 __Thank You__
